@@ -86,13 +86,6 @@ terraform plan
 terraform apply
 ```
 
-4. Get cluster credentials:
-```bash
-gcloud container clusters get-credentials $(terraform output -raw cluster_name) \
-  --region $(terraform output -raw region) \
-  --project $(terraform output -raw project_id)
-```
-
 ## Clean Up
 
 To destroy all resources:
