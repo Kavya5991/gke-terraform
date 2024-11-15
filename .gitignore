@@ -10,7 +10,7 @@
 
 # Crash logs
 crash.log
-
+kubeconfig-*
 
 # CLI configuration files
 .terraformrc
